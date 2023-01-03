@@ -33,17 +33,31 @@ We expect you to prove both your communication and technical capabilities as a h
 At Zenfit we work together on finding solutions that will lead us to the best user experience in the end, so it's important that you are able to communicate your thoughts and ideas.
 We enjoy having a lean product, clean code, and well-thought-out solutions.
 
-### The task 📝
-The task is to dig into the project, and focus on these four key areas:
 
-- Frontend - How satisfied are you with the modular architecture and its components?
+## The task
+The test consists of two parts:
+1. A technical test
+2. An analytical test
+
+### Technical test 🧑‍💻
+The technical test is focusing on your frontend skills.
+We expect you to be able to work with the codebase, and make changes to the existing code.
+
+- Coding challenge
+  - Adding a recipe
+    - The task is to implement a new feature, which allows the user to **add** a new recipe to the meal plan via the add alternatives modal.
+  - Deleting a recipe
+    - The task is to implement a new feature, which allows the user to **delete** a recipe from the meal plan.
+- Testing
+  - Write two tests in Jest that tests each of the above actions.
+
+### Analytical test 📝
+The task is to dig into the project, and focus on these two key areas:
+- Architecture - How satisfied are you with the modular architecture and its components?
   - What are the pros and cons of the current architecture and what are the consequences of these?
 
 - Implementation - How would you integrate Typescript into this project?
   - What would be your approach, so you can work smart and not hard?
-  
-- Testing - How would you formulate a testing strategy for the project?
-  - Write a test in Jest or Cypress that tests some key functionality of the code.
 
 ##### Bonus key areas to focus on:
 - Extension - What choices would you make if extending this project from MVP to production-grade code?
